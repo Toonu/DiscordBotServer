@@ -4,11 +4,15 @@
   "description": "Kerbal Management Bot",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js|node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Toonu/DiscordBot.git"
+  },
+  "engines": {
+    "node": "12.x"
   },
   "author": "Toonu",
   "license": "GPL-3.0-or-later",
@@ -17,6 +21,7 @@
   },
   "homepage": "https://github.com/Toonu/DiscordBot#readme",
   "dependencies": {
-    "discord.js": "^12.4.0"
+    "discord.js": "^12.4.0",
+    "express": "^4.17.1"
   }
 }
