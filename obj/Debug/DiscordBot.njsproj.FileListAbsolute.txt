@@ -1,0 +1,3 @@
+D:\GitProjects\DiscordBot\obj\Debug\DiscordBot.njsprojAssemblyReference.cache
+D:\GitProjects\DiscordBot\obj\Debug\DiscordBot.njsproj.CoreCompileInputs.cache
+D:\GitProjects\DiscordBot\bin\Microsoft.NodejsTools.WebRole.dll
