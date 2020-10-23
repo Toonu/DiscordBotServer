@@ -14,6 +14,8 @@ for (const file of commandFiles) {
 }
 
 
+//Test
+
 //Starts the bot
 client.on('ready', () => {
 	console.log('Deployed and ready!');
