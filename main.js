@@ -15,7 +15,7 @@ for (const file of commandFiles) {
 
 
 //Starts the bot
-client.once('ready', () => {
+client.on('ready', () => {
 	console.log('Deployed and ready!');
 	client.user.setActivity("over players.", { type: "WATCHING" })
 });
@@ -24,6 +24,11 @@ client.once('ready', () => {
 client.on('message', message => {
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
 
+  if (message.content.startsWith(`${prefix}RESET`) && message.author.id == 319919565079576576) {
+    resetBot(message.channel);
+    return;
+  }
+  
 	//Prepares the arguments and command
 	const args = message.content.slice(prefix.length).trim().split(/ +/);
 	const commandName = args.shift().toLowerCase();
@@ -80,3 +85,11 @@ client.on('message', message => {
 });
 
 client.login(token);
+
+// Turn bot off (destroy), then turn it back on
+function resetBot(channel) {
+    // send channel a message that you're resetting bot [optional]
+    channel.send('Resetting...')
+    .then(msg => client.destroy())
+    .then(() => client.login(token));
+}
