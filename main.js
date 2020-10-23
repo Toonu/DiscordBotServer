@@ -20,6 +20,8 @@ client.on('ready', () => {
 	client.user.setActivity("over players.", { type: "WATCHING" })
 });
 
+//SyncTest
+
 
 client.on('message', message => {
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
