@@ -1,11 +1,62 @@
 {
     "prefix": "?",
     "token": "NzY4ODQ1NDM1NDU1OTMwNDI4.X5GZHA.jg8m-uylAZhHY_FGmJ4JP4wD_5g",
-    "debug":  "true",
-    "meaning_of_life": 42,
-    "passwords_array": [ "please", "dont", "hack", "me" ],
-    "secret_passcodes": {
-        "bank": 1234,
-        "home": 4321
+    "debug": "true",
+    "guild": "768471917874905108",
+    "main_channel": "768852867649634304",
+    "sheet": "1xX1iCzazw08WiVvoYynbLVtFCUQ9PkT-Z5CYDY-7Y98",
+    "administrators": "716608480810631178",
+    "developers": "767064998207291430",
+    "users": {
+        "default": {
+            "nation": "undefined",
+            "color": "undefined",
+            "password": "undefined"
+        },
+        "319919565079576576": {
+            "nation": "Iconia",
+            "color": "255255255",
+            "password": "11"
+        },
+        "693908421396922480": {
+            "nation": "Bunny",
+            "color": "Bunny",
+            "password": "22"
+        },
+        "591521990972669980": {
+            "nation": "Korovia",
+            "color": "undefined",
+            "password": "undefined"
+        },
+        "472210194814730250": {
+            "nation": "Laveska",
+            "color": "undefined",
+            "password": "undefined"
+        },
+        "301471023298248705": {
+            "nation": "Orion",
+            "color": "undefined",
+            "password": "undefined"
+        },
+        "388547669028503553": {
+            "nation": "DIM",
+            "color": "undefined",
+            "password": "undefined"
+        },
+        "257922404511121408": {
+            "nation": "Rusland",
+            "color": "undefined",
+            "password": "undefined"
+        },
+        "211547891276185601": {
+            "nation": "EoL",
+            "color": "undefined",
+            "password": "undefined"
+        },
+        "227222314645717002": {
+            "nation": "Jyuren",
+            "color": "undefined",
+            "password": "undefined"
+        }
     }
 }

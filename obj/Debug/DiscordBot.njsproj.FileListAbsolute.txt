@@ -1,6 +1,3 @@
 D:\GitProjects\DiscordBot\obj\Debug\DiscordBot.njsprojAssemblyReference.cache
 D:\GitProjects\DiscordBot\obj\Debug\DiscordBot.njsproj.CoreCompileInputs.cache
 D:\GitProjects\DiscordBot\bin\Microsoft.NodejsTools.WebRole.dll
-D:\GitProjects\kerbaldiscordbot\obj\Debug\DiscordBot.njsprojAssemblyReference.cache
-D:\GitProjects\kerbaldiscordbot\obj\Debug\DiscordBot.njsproj.CoreCompileInputs.cache
-D:\GitProjects\kerbaldiscordbot\bin\Microsoft.NodejsTools.WebRole.dll
